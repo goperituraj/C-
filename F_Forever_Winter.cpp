@@ -5,7 +5,6 @@ void solve()
 {
     int n, m;
     cin >> n >> m;
-
     vector<vector<int>> adj(n + 1);
 
     while (m--)
@@ -25,7 +24,6 @@ void solve()
         if (x != 0)
             mp[x]++;
     }
-
     for (auto it : mp)
     {
         cout << it.first << " " << it.second << endl;
@@ -50,7 +48,6 @@ void solve()
         }
     }
 }
-
 int main()
 {
     int t = 1;
